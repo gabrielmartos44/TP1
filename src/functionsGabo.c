@@ -5,7 +5,7 @@
  *      Author: Gabriel
  */
 #include "functionsGabo.h"
-//-
+
 int GetNumeroIntConRango(int *pResultado, char *mensaje, char *mensajeError, float minimo, float maximo){
 	int retorno = -1;
 		int IBuffer;
@@ -31,7 +31,7 @@ int GetNumeroIntConRango(int *pResultado, char *mensaje, char *mensajeError, flo
 
 			return retorno;
 	}
-//-
+//----------------------------------------------------------------
 int GetNumeroFloatConRango(float *pResultado, char *mensaje, char *mensajeError, float minimo, float maximo)
 {
 	int retorno = -1;
@@ -58,7 +58,7 @@ int GetNumeroFloatConRango(float *pResultado, char *mensaje, char *mensajeError,
 
 		return retorno;
 }
-//-
+//----------------------------------------------------------------
 float calcularPromedio(int dividendo,int divisor)
 {
 	float promedio;
@@ -73,7 +73,7 @@ float calcularPromedio(int dividendo,int divisor)
 	}
       return promedio;
 }
-//-
+//----------------------------------------------------------------
 float aumentoPorcentual(float numero,int aumento)
 {
 	float numAumentado;
@@ -82,7 +82,7 @@ float aumentoPorcentual(float numero,int aumento)
 
 	return numAumentado;
 }
-//-
+//---------------------------------------------------------------
 float sumarflotantes(float numUno,float numDos)
 {
 	float resultado;
@@ -91,3 +91,13 @@ float sumarflotantes(float numUno,float numDos)
 
 	return resultado;
 }
+
+int sumarEnteros(int numUno,int numDos)
+{
+	int resultado;
+
+	resultado = numUno + numDos;
+
+	return resultado;
+}
+
